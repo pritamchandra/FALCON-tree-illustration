@@ -29,7 +29,7 @@ np.set_printoptions(legacy = '1.25',
 # # _____________________________________________
 
 
-def Print(A, round = precision, suppress_printing = False):
+def Print(A, round = precision, suppress_printing = True):
     ''' Parameters
             A : numpy matrix of polynomials, OR 
                 a single polynomial
