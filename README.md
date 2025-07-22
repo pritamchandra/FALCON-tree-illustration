@@ -37,3 +37,6 @@ Both will return the FALCON tree associated to ```F```, except that ```GSO_print
 Once the tree ```T``` is created the methods ```Tree_formatting(T)``` from the [helper](helper.py) file can be used with self-explanatory parameters to format the entries of the tree, which are vectors. This may include Fourier Transforming, or changing display precision. 
 
 The factors corresponding to ```T``` can be generated using ```Factors(T)``` again in the [helper](helper.py) file. This will generate a list of unit lower triangular matrices use product is the $L$ part of the GSO.
+
+## Bibliography
+- the [nested_list](nested_list.py) file was taken from this stackexchange [answer](https://stackoverflow.com/a/69570280).
