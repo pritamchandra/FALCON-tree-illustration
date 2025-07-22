@@ -95,7 +95,7 @@ def GSO_tree(A):
 
     return [L, [L0, L1]]
 
-def GSO_print_tree(A, parent, pos):
+def GSO_print_tree(A, parent = None, pos = []):
     ''' Parameters
             A : 2 x l numpy matrix with entries from R[x]/(x^d - 1)
             parent : partial falcon tree that tracks the recursion call
